@@ -36,6 +36,8 @@ module.exports = (grunt) ->
                             { name: 'when', location: 'lib/when', main: 'when' }
                             { name: 'poly', location: 'lib/poly' }
                         ]
+                        preloads: 
+                            ['poly/function']
                 #helpers : ['tests/helpers/*.js']
                 #vendor: ['',]        
 
