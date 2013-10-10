@@ -1,0 +1,8 @@
+<div>
+    <h2>Archive</h2>
+    <ul class="list-unstyled">
+        <!-- ko foreach: emails -->
+        <li><a data-bind="text: subject, attr: {href: '#/email/' + id()}"></a></li>
+        <!-- /ko -->
+    </ul>
+</div>

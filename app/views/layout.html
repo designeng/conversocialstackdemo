@@ -1,0 +1,10 @@
+<div>
+    <nav class="navbar navbar-default" role="navigation">
+        <ul class="nav navbar-nav">
+            <!-- ko foreach: menuItems -->
+                <li data-bind="css: {active: $parent.selectedItem() == value}"><a data-bind="text: name, attr: {href: url}"></a></li>
+            <!-- /ko -->
+        </ul>
+    </nav>
+    <div id="content"></div>
+</div>

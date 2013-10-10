@@ -1,0 +1,13 @@
+{
+    "id": "Inbox",
+    "mails": [
+        {
+            "id": 12,
+            "from": "XLN <basia@framehome.xyz>",
+            "to": "steve@example.com",
+            "date": "May 8, 2011",
+            "subject": "RE: Remember Whoopi's joke",
+            "folder": "Inbox"
+        }
+    ]
+}
